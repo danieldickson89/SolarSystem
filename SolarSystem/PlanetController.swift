@@ -10,6 +10,22 @@ import Foundation
 
 class PlanetController {
     
+    static let sharedInstance = PlanetController()
+    
+    private(set) var planets: [Planet]
+    
+    init() {
+        self.planets = PlanetController.planets
+    }
+    
+    func removePlanet(planet: Planet) {
+        planets = planets.filter({ $0.name != planet.name })
+    }
+    
+    func addPlanet(planet: Planet) {
+        planets.append(planet)
+    }
+    
     static var planets: [Planet] {
         let mercury = Planet(name: "Mercury", diameter: 4879, dayLength: 4222.6, millionKMsFromSun: 57.9)
         

@@ -14,10 +14,21 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     var window: UIWindow?
 
 
-    func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
-        // Override point for customization after application launch.
-        return true
-    }
+//    func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
+//        
+//        let planets = PlanetController.sharedInstance.planets
+//        print("planets: \(planets.count)")
+//        
+//        let pluto = planets[planets.count - 1]
+//        PlanetController.sharedInstance.removePlanet(pluto)
+//        
+//        PlanetController.sharedInstance.addPlanet(Planet(name: "Joshua", diameter: 0, dayLength: 24, millionKMsFromSun: 149.6))
+//        
+//        let planetsAfterRemove = PlanetController.sharedInstance.planets
+//        print("planets after remove: \(planetsAfterRemove.count)")
+//        
+//        return true
+//    }
 
     func applicationWillResignActive(application: UIApplication) {
         // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.

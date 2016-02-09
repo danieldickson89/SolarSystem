@@ -107,10 +107,10 @@
 			children = (
 				68816A7B1BBB3591000569CE /* AppDelegate.swift */,
 				68816A7F1BBB3591000569CE /* Main.storyboard */,
-				390C75C91C62C3730023C154 /* PlanetDetailViewController.swift */,
-				390C75C71C62BDCD0023C154 /* PlanetListTableViewController.swift */,
-				68816AA91BBB35E8000569CE /* PlanetController.swift */,
 				68816AAA1BBB35E8000569CE /* Planet.swift */,
+				68816AA91BBB35E8000569CE /* PlanetController.swift */,
+				390C75C71C62BDCD0023C154 /* PlanetListTableViewController.swift */,
+				390C75C91C62C3730023C154 /* PlanetDetailViewController.swift */,
 				68816A821BBB3591000569CE /* Assets.xcassets */,
 				68816A841BBB3591000569CE /* LaunchScreen.storyboard */,
 				68816A871BBB3591000569CE /* Info.plist */,
